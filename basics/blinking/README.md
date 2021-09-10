@@ -2,7 +2,7 @@
 
 This example prints 'blink' and makes the LED blink with an 1 second frequency.
 
-## Running the examples
+## Running the example
 
 Wire your ESP32 and the LED according to:
 
