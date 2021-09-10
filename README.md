@@ -24,4 +24,4 @@ Please make sure to follow the style of the other examples. We can create the sc
 
 ## License
 
-[BSD0](https://choosealicense.com/licenses/0bsd/)
+[0BSD](https://choosealicense.com/licenses/0bsd/)

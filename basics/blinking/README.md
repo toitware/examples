@@ -10,6 +10,8 @@ Wire your ESP32 and the LED according to:
 
 ![Alt text](./blinking_schematic.png "Blinking example - schematic circuit")
 
+To run the example on your ESP32, execute the following command:
+
 ```bash
 toit run blinking.toit
 ```
