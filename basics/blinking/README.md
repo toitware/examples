@@ -1,6 +1,6 @@
 # Blinking example
 
-This example prints 'blink' and makes the LED blink with an 1 second frequency.
+This example prints 'blink' and makes the LED blink with a 1 second frequency.
 
 ## Running the example
 
