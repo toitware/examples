@@ -17,7 +17,7 @@ main:
   while true:
     button.wait_for 1
     print "Button clicked"
-    sleep --ms=100  // Debounce
+    sleep --ms=100  // Debounce.
     // Wait for the button to be released.
     button.wait_for 0
     sleep --ms=100  // Debounce
