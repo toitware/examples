@@ -15,7 +15,3 @@ To run the example on your ESP32, execute the following command:
 ```bash
 toit run reed.toit
 ```
-
-## License
-
-[BSD0](https://choosealicense.com/licenses/0bsd/)
