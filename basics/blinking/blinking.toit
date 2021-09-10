@@ -19,5 +19,5 @@ main:
     print "blink"
     led.set 1
     sleep --ms=500
-    LED.set 0
+    led.set 0
     sleep --ms=500
