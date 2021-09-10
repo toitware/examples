@@ -18,6 +18,7 @@ PHOTO_RESISTOR_PIN ::= 32
 THRESHOLD ::= 2.2
 
 main:
-  sensor := adc.Adc (gpio.Pin PHOTO_RESISTOR_PIN)
+  pin := gpio.Pin PHOTO_RESISTOR_PIN
+  sensor := adc.Adc pin
   on_off := sensor.get > THRESHOLD ? "on" : "off"
   print "Light is $on_off"
