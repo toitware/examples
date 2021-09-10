@@ -22,7 +22,7 @@ CHANGE_RATE ::= 0.01  // The amount of change every 5ms.
 main:
   step := CHANGE_RATE
   duty := DUTY_MIN
-  led_pwm ::= gpio.Pwm --frequency=100
+  led_pwm := gpio.Pwm --frequency=100
   led := gpio.Pin LED
   fading_led := led_pwm.start led
   while true:
