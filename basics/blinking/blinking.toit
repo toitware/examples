@@ -17,7 +17,7 @@ main:
   led := gpio.Pin LED --output
   while true:
     print "blink"
-    LED.set 1
+    led.set 1
     sleep --ms=500
     LED.set 0
     sleep --ms=500
