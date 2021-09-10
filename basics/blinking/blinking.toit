@@ -1,7 +1,7 @@
 /**
 Blinking LED example code.
 
-This example prints 'blink' and makes the LED blink with an 1 second frequency.
+This example prints 'blink' and makes the LED blink with a 1 second frequency.
 
 How to wire the LED:
     - Place a 220ohm resistor in between the anode of the LED and GPIO19 and connect the cathode to ground.
