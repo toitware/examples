@@ -11,7 +11,7 @@ How to wire the LED:
 import gpio.pwm as gpio
 import gpio
 
-/// Defining the GPIO pin for the LED.
+/// The GPIO pin for the LED.
 LED ::= 19
 
 /// The configured range of the PWM.
