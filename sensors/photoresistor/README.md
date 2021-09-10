@@ -1,6 +1,6 @@
 # Photoresistor example
 
-This example prints whether the lighting level is above the threshold.
+This example prints whether the lighting level is above a given threshold.
 
 ## Running the example
 
