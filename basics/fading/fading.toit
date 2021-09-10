@@ -30,4 +30,5 @@ main:
     duty += step
     if not DUTY_MIN <= duty <= DUTY_MAX:
       step = -step
+      duty += step
     sleep --ms=5
