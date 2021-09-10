@@ -1,6 +1,6 @@
 # Button example
 
-This example prints 'Button clicked', when you press click the button.
+This example prints 'Button clicked', when you press the connected button.
 
 ## Running the example
 
