@@ -5,7 +5,7 @@ This example increases and decreases the lighting level of a LED over and over a
 
 How to wire the LED: 
   - Place a 220ohm resistor in between the anode of the LED and GPIO19 and connect the cathode to ground.
-  - The resistor will increase the life of your LED.
+  - The resistor limits the current that flows through the LED and the ESP32, increasing their life.
 */
 
 import gpio.pwm as gpio
