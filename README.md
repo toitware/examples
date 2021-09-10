@@ -1,6 +1,6 @@
 # Examples
 
-Examples is a repository with Toit examples, which for instance are shown at [console.toit.io](https://console.toit.io/devices/DEVICE_ID/code).
+A repository with Toit examples, which for instance are shown at [console.toit.io](https://console.toit.io/devices/DEVICE_ID/code).
 
 ## Running the examples
 
