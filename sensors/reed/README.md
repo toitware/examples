@@ -1,14 +1,14 @@
 # Reed sensor example
 
-This example shows how to trigger a print based on the magnetic reed sensor.
+This example prints 'contact' and 'no contact' depending on the state of the reed switch.
 
 ## Running the example
 
 Wire your ESP32 and the reed sensor according to:
 
-![Alt text](./fading_breadboard.png "Fading example - breadboard overview")
+![Alt text](./reed_breadboard.png "Reed example - breadboard overview")
 
-![Alt text](./fading_schematic.png "Fading example - schematic circuit")
+![Alt text](./reed_schematic.png "Reed example - schematic circuit")
 
 To run the example on your ESP32, execute the following command:
 
