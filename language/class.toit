@@ -15,6 +15,7 @@ class MegaGreeter:
   say_hi:
     // Greet everyone individually!
     names.do: print "Hello $it!"
+
   say_bye:
     everyone := names.join ", "
     print "Bye $everyone, come back soon."
