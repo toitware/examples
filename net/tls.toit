@@ -1,5 +1,5 @@
 /**
-Tls example code.
+TLS example code.
 
 This example sends a request to Google.com and prints the size of the response.
 */
