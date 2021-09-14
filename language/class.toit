@@ -27,5 +27,6 @@ main:
   greeter.names.add "Lars"
   greeter.names.add "Kasper"
   greeter.names.add "Rikke"
+
   greeter.say_hi
   greeter.say_bye
