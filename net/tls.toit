@@ -24,7 +24,9 @@ main:
 
   // Instantiate an HTTP connection object, on which we can do requests.
   connection := http.Connection socket host
+  // Create and send the request.
   request := connection.new_request "GET" "/"
+  // Before sending the request, we could tweak the headers of the request here.
   response := request.send
 
   bytes := 0
