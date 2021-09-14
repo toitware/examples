@@ -17,6 +17,7 @@ main:
   // Establish a TCP connection with Google.com.
   tcp := network_interface.tcp_connect host 443
 
+  // Upgrade the TCP socket to a secure TLS socket.
   socket := tls.Socket.client tcp
     --server_name=host
     --root_certificates=[GLOBALSIGN_ROOT]
