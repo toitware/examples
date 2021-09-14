@@ -22,6 +22,7 @@ main:
     --server_name=host
     --root_certificates=[GLOBALSIGN_ROOT]
 
+  // Instantiate an HTTP connection object, on which we can do requests.
   connection := http.Connection socket host
   request := connection.new_request "GET" "/"
   response := request.send
