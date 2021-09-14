@@ -14,6 +14,7 @@ main:
   network_interface := net.open
 
   host := "www.google.com"
+  // Establish a TCP connection with Google.com.
   tcp := network_interface.tcp_connect host 443
 
   socket := tls.Socket.client tcp
