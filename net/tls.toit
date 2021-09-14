@@ -10,6 +10,7 @@ import http
 import tls
 
 main:
+  // Open the default network interface (typically WiFi).
   network_interface := net.open
 
   host := "www.google.com"
