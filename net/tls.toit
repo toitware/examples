@@ -1,3 +1,8 @@
+/**
+Tls example code.
+
+This example sends a request to Google.com and prints the size of the response.
+*/
 
 import net
 import net.x509 as net
