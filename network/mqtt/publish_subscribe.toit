@@ -14,6 +14,7 @@ CLIENT_ID ::= "$device.hardware_id"
 HOST      ::= "test.mosquitto.org"
 // MQTT port 1883 is for unencrypted communication.
 PORT      ::= 1883
+// MQTT topic name
 TOPIC     ::= "my/sensor/data"
 
 main:
@@ -29,15 +30,8 @@ main:
   // Start subscribing to a topic.
   subscribe client  
 
-  payload := 42.0
-
-  // Publish message to topic
-  client.publish
-    TOPIC 
-    json.encode {
-      "value": payload
-    }
-  print "Published message $payload on '$TOPIC'"  
+  // Start publishing on a topic.
+  publish client 42.0
 
   // Process subscribed messages.
   client.handle: | topic/string payload/ByteArray |
@@ -47,5 +41,15 @@ main:
     return
 
 subscribe client/mqtt.Client:
+  // Subscripe to a topic
   client.subscribe TOPIC --qos=1
-  print "Subscribed to MQTT client"
+  print "Subscribed to topic '$TOPIC'"
+
+publish client/mqtt.Client payload/float:
+  // Publish message to topic
+  client.publish
+    TOPIC 
+    json.encode {
+      "value": payload
+    }
+  print "Published message `$payload` on '$TOPIC'"  
