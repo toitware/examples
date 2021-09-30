@@ -1,6 +1,6 @@
 # Examples
 
-A repository with Toit examples, which for instance are shown at [console.toit.io](https://console.toit.io/devices/DEVICE_ID/code).
+A repository with Toit examples, which are also available directly in [console.toit.io](https://console.toit.io/) in the Code tab of your device.
 
 ## Running the examples
 
