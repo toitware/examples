@@ -5,7 +5,7 @@ receive data - via a public MQTT broker.
 
 ## Running the example
 
-First, install the mqtt package by executing the following commands:
+First, install the [mqtt package](https://pkg.toit.io/package/github.com%2Ftoitware%2Fmqtt@v1.1.0) by executing the following commands:
 
 ```bash
 toit pkg init
