@@ -36,7 +36,7 @@ main:
   // Process subscribed messages.
   client.handle: | topic/string payload/ByteArray |
     decoded := json.decode payload
-    print "Received message on '$topic': $(decoded["value"])"
+    print "Received message '$(decoded["value"])' on '$topic'"
     // Stop after first message.
     return
 
