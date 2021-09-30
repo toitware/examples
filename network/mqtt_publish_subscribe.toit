@@ -1,6 +1,6 @@
 /**
-Example code for subscribing to a topic in order to receive data (on a device) via a public MQTT broker.
-By using the Toit MQTT client.
+Example code for publishing message to a topic, and subscribing on the same topic in order to 
+receive data via a public MQTT broker - by using the Toit MQTT client.
 */
 
 import net
