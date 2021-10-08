@@ -7,7 +7,7 @@ This example shows how to use Bluetooth Low-Energy (BLE) communication with your
 To run the BLE advertising code examples on your ESP32, execute the following Toit CLI command:
 
 ```bash
-toit run adversiting.toit
+toit run advertising.toit
 ```
 
 To run the BLE scanning code examples on your ESP32, execute the following Toit CLI command:
