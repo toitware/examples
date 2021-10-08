@@ -1,16 +1,11 @@
-import ble
+/**
+Example code for scanning for local BLE devices, printing their addresses.
+*/
 
-BATTERY_SERVICE ::= ble.uuid 0x180F
-SCAN_DURATION   ::= Duration --s=3
+import ble
 
 main:
   device := ble.Device.default
 
-  addresses := []
-
-  device.scan --duration=SCAN_DURATION: | remote_device/ble.RemoteDevice |
-    if remote_device.data.service_classes.contains BATTERY_SERVICE:
-      addresses.add remote_device.address
-
-  print addresses
-  
+  device.scan: | remote_device/ble.RemoteDevice |
+    print "Found $remote_device"
