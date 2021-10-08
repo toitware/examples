@@ -17,4 +17,3 @@ main:
 
   // Let the advertiser run until done (can be indefinitely).
   advertiser.wait_for_done
-  
