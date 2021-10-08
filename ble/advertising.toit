@@ -1,5 +1,5 @@
 /**
-Example code for advertising the Toit device to other devices.
+Example code for advertising the Toit device to other BLE devices.
 */
 
 import ble
