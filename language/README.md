@@ -12,14 +12,6 @@ To run the example on your ESP32 or simulator, execute the following command:
 toit run class.toit
 ```
 
-## Running the Class example
-
-To run the example on your ESP32 or simulator, execute the following command:
-
-```bash
-toit run class.toit
-```
-
 ## License
 
 [BSD0](https://choosealicense.com/licenses/0bsd/)
