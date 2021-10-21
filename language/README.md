@@ -2,7 +2,7 @@
 
 This folder contains basic Toit language code examples.
 
-The class.toit example shows how to define a class and instantiate it as an object.
+The `class.toit` example shows how to define a class and instantiate it as an object.
 
 ## Running the Class example
 
