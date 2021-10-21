@@ -1,10 +1,12 @@
-# Class example
+# Toit language examples
 
-This example shows how to define a class and instantiate it as an object.
+This folder contains basic Toit language code examples.
 
-## Running the example
+The class.toit example shows how to define a class and instantiate it as an object.
 
-To run the example on your ESP32, execute the following command:
+## Running the Class example
+
+To run the example on your ESP32 or simulator, execute the following command:
 
 ```bash
 toit run class.toit
