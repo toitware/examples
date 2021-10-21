@@ -31,6 +31,6 @@ iterative_fib n:
     tmp := n2
     n2 = n2 + n1
     n1 = tmp
-    i = i + 1
+    i++
 
   return n1 + n2
