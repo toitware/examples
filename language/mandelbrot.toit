@@ -1,8 +1,6 @@
 /**
 Mandelbrot example in Toit.
 
-This example draws a shape as the output.
-
 */
 
 MAX_PIXEL_VALUE ::= 255
@@ -13,8 +11,7 @@ main:
 
 
 mandelbrot width height x_center y_center scale limit:
-  pixels := List width:
-    ByteArray height
+  pixels := List width: ByteArray height
   y_scale := scale * 2;
   for y := height - 1; y >= 0; y--:
     for x := 0; x < width; x++:
