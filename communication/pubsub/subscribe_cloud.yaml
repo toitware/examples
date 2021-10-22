@@ -1,0 +1,9 @@
+# App specification file for the subscriber.
+# Runs the subscribe_cloud.toit program every time a message is received in the cloud topic named "cloud:hello-world".
+
+name: Subscribe App
+entrypoint: subscribe_cloud.toit
+
+triggers:
+  on_pubsub_topic:
+    - "cloud:hello-world"
