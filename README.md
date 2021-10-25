@@ -24,7 +24,7 @@ Please make sure to follow the style of the other examples. We can create the sc
 
 ## Comments in code
 
-Remember to keep the length of comments in the code below approx. 90 chars for easy readability in the Code tab of the Toit console.
+Remember to keep the line length of comments in the code below approx. 90 chars for easy readability in the Code tab of the Toit console.
 
 ## License
 
