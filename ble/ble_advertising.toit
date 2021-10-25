@@ -1,9 +1,11 @@
 /**
 Example code for advertising a device to other BLE devices.
 
-A BLE device can advertise about itself. The advertisement can contain a list of services and manufactorer data section.
+A BLE device can advertise about itself. The advertisement can contain a list of services 
+and manufactorer data section.
 
-This code can be run without any prerequisites on an ESP32 device, since BLE is built-into the ESP32 chip.
+This code can be run without any prerequisites on an ESP32 device, since BLE is built-into 
+the ESP32 chip.
 
 */
 

@@ -4,8 +4,10 @@ PubSub example code for subscribing to a cloud topic.
 The subscriber sets up a subscription on a cloud topic named "cloud:hello-world",
 and prints the received message and the hardware ID of the device.
 
-A cloud topic is used for communication between two separate device. The data is sent via the Toit cloud in this scenario.
-The cloud topic can also be used for communication between a device and an external service or client application.
+A cloud topic is used for communication between two separate device. 
+The data is sent via the Toit cloud in this scenario.
+The cloud topic can also be used for communication between a device and an external 
+service or client application.
 
 */
 

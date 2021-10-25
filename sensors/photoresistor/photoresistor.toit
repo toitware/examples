@@ -4,8 +4,8 @@ Photoresistor example code.
 This example prints whether the lighting level is above the threshold.
 
 How to wire the LED: 
-  - Place a 10K ohm resistor in between the one leg of the photo resistor and ground. Connect the other leg
-    of the photo resistor to PIN 32.
+  - Place a 10K ohm resistor in between the one leg of the photo resistor and ground. 
+    Connect the other leg of the photo resistor to PIN 32.
 */
 
 import gpio
