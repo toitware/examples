@@ -1,6 +1,8 @@
-# App specification file for the PubSub subscriber, which will run the subscribe_cloud.toit program every time a message is received in the cloud topic named "cloud:hello-world".
+# App specification file for the PubSub subscriber, which will run the subscribe_cloud.toit program
+# every time a message is received in the cloud topic named "cloud:hello-world".
 #
-# Using this specification file, the subscriber program will be deployed as a long-lived application on your device.
+# Using this specification file, the subscriber program will be deployed as a long-lived application
+# on your device.
 
 name: Subscribe App
 entrypoint: subscribe_cloud.toit
