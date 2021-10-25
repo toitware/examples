@@ -22,6 +22,10 @@ Pull requests with new examples are welcome.
 
 Please make sure to follow the style of the other examples. We can create the schematic and breadboard overview for you, if you dont have access to drawing tools.
 
+## Comments in code
+
+Remember to keep the length of comments in the code below approx. 90 chars for easy readability in the Code tab of the Toit console.
+
 ## License
 
 [0BSD](https://choosealicense.com/licenses/0bsd/)
