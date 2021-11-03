@@ -1,11 +1,24 @@
 /**
-Example code for scanning BLE devices.
+Example code for scanning and discovering BLE peripherals.
 
-This code is run on a BLE device, and will scan for nearby devices.
-When a BLE device is found, the code will print its address.
+This program must run on a BLE device, and will scan for nearby BLE devices.
 
-This code can be run without any prerequisites on an ESP32 device, since BLE is
-built-into the ESP32 chip.
+When a BLE device is found, the program will print its address.
+
+This program can be run without any prerequisites on an ESP32 device, since BLE is
+built into the ESP32 chip.
+
+If you want to discover and find your mobile phone using this program, you can 
+download a mobile app, like nRF Connect:
+
+https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403 for iOS
+
+or 
+
+https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en for Android
+
+The nRF Connect app allows your iOS or Android device to advertise as a BLE peripheral, 
+as well as discovering nearby peripherals, like your Toit device.
 
 */
 
