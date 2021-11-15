@@ -11,7 +11,7 @@ TX ::= 32
 
 main:
   // The UART port can be configured in many ways.
-  // See https://libs.toit.io/uart/class-Port#constructor(10%2C0%2C0%2Cbaud_rate%2Ccts%2Cdata_bits%2Cinvert_rx%2Cinvert_tx%2Cparity%2Crts%2Crx%2Cstop_bits%2Ctx)
+  // See https://libs.toit.io/uart/class-Port
   port := uart.Port
       --rx=gpio.Pin RX
       --tx=gpio.Pin TX
