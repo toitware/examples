@@ -1,0 +1,7 @@
+prefixes:
+  certificate_roots: toit-cert-roots
+packages:
+  toit-cert-roots:
+    url: github.com/toitware/toit-cert-roots
+    version: 1.0.0
+    hash: bc4e7a2382dc5accb9c6c59673a4292e2f3a5698
